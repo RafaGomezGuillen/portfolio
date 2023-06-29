@@ -1,0 +1,22 @@
+.App {
+  margin: auto;
+  width: 70%;
+}
+
+@media screen and (max-width: 770px) {
+  .App {
+    margin: 0;
+    width: 100%;
+  }
+
+  .content {
+    padding: 20px 80px;
+  }
+}
+
+
+@media screen and (max-width: 500px) { 
+  .content {
+    padding: 20px 30px;
+  }
+}
