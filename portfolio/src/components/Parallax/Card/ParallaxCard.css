@@ -1,5 +1,5 @@
 .tilt-box-wrap {
-  width: 60%;
+  width: 80%;
   height: 300px;
   margin: auto;
   position: relative;
@@ -16,13 +16,9 @@
   width: 100%;
   height: 100%;
   background: #04527b;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
   text-align: center;
   color: #fff;
-  font-size: 90px;
+  font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
   transition: all 0.6s ease-out;
@@ -31,8 +27,48 @@
   transform-style: preserve-3d;
 }
 
-.tilt-box strong {
+.tilt-box div {
+  margin: auto;
+  width: 80%;
+  height: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  top: 40px;
+  animation: logos 20s infinite;
+}
+
+@keyframes logos {
+  0%, 16.66% {
+    background-image: url("../../../assets/html-logo.png");
+  }
+
+  16.67%, 33.33% {
+    background-image: url("../../../assets/css-logo.png");
+  }
+
+  33.34%, 50% {
+    background-image: url("../../../assets/csharp-logo.png");
+  }
+
+  50.01%, 66.66% {
+    background-image: url("../../../assets/dotnet-logo.png");
+  }
+
+  66.67%, 83.33% {
+    background-image: url("../../../assets/react-logo.png");
+  }
+
+  83.34%, 100% {
+    background-image: url("../../../assets/sql-logo.png");
+  }
+}
+
+.tilt-box h1 {
   transform: translateZ(40px);
+  position: relative;
+  top: 25px;
 }
 
 .t_over {
@@ -127,5 +163,10 @@
   .tilt-box-wrap {
     width: 100%;
     height: 300px;
+  }
+
+  .tilt-box {
+    font-size: 10px;
+    font-weight: 700;
   }
 }

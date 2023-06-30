@@ -16,6 +16,17 @@ footer div {
   padding: 0;
 }
 
+.footer-icons-img {
+  color: #fff;
+  width: 25px;
+  height: 25px;
+  transition: transform 0.3s ease;
+}
+
+.footer-icons-img:hover {
+  transform: scale(1.5);
+}
+
 .footer-icons li {
   display: inline-block;
   padding-left: 15px;

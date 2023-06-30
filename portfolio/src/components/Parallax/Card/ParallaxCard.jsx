@@ -14,7 +14,8 @@ function ParallaxCard({ title }) {
       <span className="t_over"></span>
       <span className="t_over"></span>
       <div className="tilt-box">
-        <strong>{title}</strong>
+        <h1>{title}</h1>
+        <div></div>
       </div>
     </div>
   );
