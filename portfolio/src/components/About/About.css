@@ -1,0 +1,62 @@
+.about-presentation h1 {
+  font-family: "Noe Display";
+  font-size: 112px;
+  line-height: 134px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.about-presentation-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.about-presentation-col {
+  flex-basis: 50%;
+  padding: 25px;
+}
+
+.about-presentation-col img {
+  width: 100%;
+  height: 100%;
+}
+
+.about-presentation-col p {
+  font-size: 25px;
+  text-align: start;
+}
+
+.technologie-cards h1 {
+  font-family: "Noe Display";
+  text-align: center;
+  font-size: 3em;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.technologie-cards-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1200px) {
+  .about-presentation h1 {
+    font-size: 3.5rem;
+    line-height: normal;
+  }
+
+  .about-presentation-col {
+    flex-basis: 100%;
+    padding: 0;
+  }
+
+  .about-presentation-col:nth-child(2) {
+    margin-top: 50px;
+  }
+
+  .about-presentation-col p {
+    font-size: 22px;
+  }
+}

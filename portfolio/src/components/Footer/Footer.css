@@ -4,6 +4,7 @@ footer {
   flex-wrap: wrap;
   padding: 2rem 0;
   border-top: solid var(--color-border) 1px;
+  margin-top: 100px;
 }
 
 footer div {
@@ -41,5 +42,11 @@ footer div {
 
   footer div:nth-child(-n + 2) {
     margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  footer {
+    margin-top: 0;
   }
 }

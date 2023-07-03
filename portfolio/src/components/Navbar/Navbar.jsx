@@ -30,7 +30,7 @@ class Navbar extends Component {
             className={this.state.clicked ? "#navbar active" : "#navbar"}
           >
             <li>
-              <a className="active" href="/">
+              <a href="/">
                 <AiOutlineHome className="navbar-icons" />
                 Home
               </a>
@@ -42,9 +42,9 @@ class Navbar extends Component {
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="/projects">
                 <FaLaptopCode className="navbar-icons" />
-                Proyects
+                Projects
               </a>
             </li>
             <li>
