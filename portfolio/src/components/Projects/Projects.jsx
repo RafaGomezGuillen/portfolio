@@ -15,11 +15,11 @@ const Projects = () => {
         <div className="project-cards-row">
           <ProjectCard
             image={images.smoothMacth3}
-            title={"Smooth Match 3"}
+            title={"Smooth Games"}
             paragraph={
-              "Smooth Match 3 is a compilation of three different games like Match 3, 2048 and Tetris; All of them combined in one place. The page was made with HTML, CSS and Javascript."
+              "Smooth Games is a compilation of three different games like Match 3, 2048 and Tetris; All of them combined in one place. The page was made with HTML, CSS and Javascript."
             }
-            link={"https://github.com/RafaGomezGuillen/match_3"}
+            link={"https://github.com/RafaGomezGuillen/smooth-games"}
           />
           <ProjectCard
             image={images.learnHowToCode}

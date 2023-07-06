@@ -1,25 +1,41 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Rafael Gómez",
+  "name": "Rafael Gómez Portfolio",
   "icons": [
     {
       "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#0e141b",
+  "background_color": "#0e141b",
+  "shortcuts": [
+    {
+      "name": "Rafael Gómez | Home",
+      "short_name": "Home",
+      "description": "Home section of Rafael Gómez Portfolio",
+      "url": "/"
+    },
+    {
+      "name": "Rafael Gómez | About",
+      "short_name": "About",
+      "description": "About section of Rafael Gómez Portfolio",
+      "url": "/about"
+    },
+    {
+      "name": "Rafael Gómez | Projects",
+      "short_name": "Projects",
+      "description": "Projects section of Rafael Gómez Portfolio",
+      "url": "/projects"
+    },
+    {
+      "name": "Rafael Gómez | Resume",
+      "short_name": "Resume",
+      "description": "Resume section of Rafael Gómez Portfolio",
+      "url": "/resume"
+    }
+  ]
 }

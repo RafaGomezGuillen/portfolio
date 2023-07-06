@@ -46,12 +46,12 @@ const Home = () => {
           </p>
           <div>
             <ul className="home-icons">
-              <a href="#">
+              <a href="https://github.com/RafaGomezGuillen">
                 <li>
                   <AiFillGithub className="home-icons-img" />
                 </li>
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/rafael-g%C3%B3mez-16676a282/">
                 <li>
                   <AiFillLinkedin className="home-icons-img" />
                 </li>
@@ -63,7 +63,7 @@ const Home = () => {
           <ParallaxCard title={"currently working with"} />
         </div>
       </div>
-      
+
       <Contact />
     </>
   );

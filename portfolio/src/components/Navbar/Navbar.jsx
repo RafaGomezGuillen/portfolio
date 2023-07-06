@@ -48,7 +48,7 @@ class Navbar extends Component {
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="/resume">
                 <FaRegFileAlt className="navbar-icons" />
                 Resume
               </a>

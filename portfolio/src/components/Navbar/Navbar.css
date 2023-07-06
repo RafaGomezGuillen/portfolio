@@ -7,6 +7,17 @@ nav {
   height: 100px;
 }
 
+.navbar-logo {
+  width: 65px;
+  height: 65px;
+}
+
+.navbar-logo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+
 #navbar {
   display: flex;
   align-items: center;
@@ -109,6 +120,11 @@ nav {
   .navbar-icons {
     position: relative;
     right: 7px;
+  }
+
+  .navbar-logo {
+    width: 60px;
+    height: 60px;
   }
 }
 

@@ -9,20 +9,15 @@ const Footer = () => {
   return (
     <footer>
       <div>Designed and Developed by Rafael Gómez</div>
-      <div>{year} RGG</div>
+      <div>COPYRIGHT © {year} RG</div>
       <div>
         <ul className="footer-icons">
-          <a href="#">
+          <a href="https://github.com/RafaGomezGuillen">
             <li>
               <AiFillGithub className="footer-icons-img" />
             </li>
           </a>
-          <a href="#">
-            <li>
-              <AiFillLinkedin className="footer-icons-img" />
-            </li>
-          </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/rafael-g%C3%B3mez-16676a282/">
             <li>
               <AiFillLinkedin className="footer-icons-img" />
             </li>
