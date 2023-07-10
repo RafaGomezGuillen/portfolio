@@ -4,6 +4,7 @@ import { IoPersonOutline } from "react-icons/io5";
 import { FaLaptopCode } from "react-icons/fa6";
 import { FaRegFileAlt } from "react-icons/fa";
 import { images } from "../../constants";
+import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 class Navbar extends Component {
@@ -19,10 +20,7 @@ class Navbar extends Component {
     return (
       <nav>
         <a href="/" className="navbar-logo">
-          <img
-            src={images.logo}
-            alt="logo"
-          />
+          <img src={images.logo} alt="logo" />
         </a>
         <div>
           <ul
@@ -30,28 +28,28 @@ class Navbar extends Component {
             className={this.state.clicked ? "#navbar active" : "#navbar"}
           >
             <li>
-              <a href="/">
+              <NavLink to="/">
                 <AiOutlineHome className="navbar-icons" />
                 Home
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="/about">
+              <NavLink to="/about">
                 <IoPersonOutline className="navbar-icons" />
                 About
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="/projects">
+              <NavLink to="/projects">
                 <FaLaptopCode className="navbar-icons" />
                 Projects
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="/resume">
+              <NavLink to="/resume">
                 <FaRegFileAlt className="navbar-icons" />
                 Resume
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>
