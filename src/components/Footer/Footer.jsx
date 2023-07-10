@@ -17,7 +17,7 @@ const Footer = () => {
               <AiFillGithub className="footer-icons-img" />
             </li>
           </a>
-          <a href="https://www.linkedin.com/in/rafael-g%C3%B3mez-16676a282/">
+          <a href="https://www.linkedin.com/in/rafael-g%C3%B3mez-guill%C3%A9n/?locale=en_US">
             <li>
               <AiFillLinkedin className="footer-icons-img" />
             </li>
