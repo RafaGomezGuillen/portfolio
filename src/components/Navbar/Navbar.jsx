@@ -19,9 +19,9 @@ class Navbar extends Component {
   render() {
     return (
       <nav>
-        <a href="/" className="navbar-logo">
+        <NavLink to="/" className="navbar-logo">
           <img src={images.logo} alt="logo" />
-        </a>
+        </NavLink>
         <div>
           <ul
             id="navbar"
