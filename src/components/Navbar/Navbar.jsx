@@ -19,7 +19,7 @@ class Navbar extends Component {
   render() {
     return (
       <nav>
-        <NavLink to="/" className="navbar-logo">
+        <NavLink to="/portfolio" className="navbar-logo">
           <img src={images.logo} alt="logo" />
         </NavLink>
         <div>
