@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.bf247b44.css",
+    "main.js": "/portfolio/static/js/main.8bab29b5.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/logo.png": "/portfolio/static/media/logo.2fc182ac2532ddc32043.png",
+    "static/media/home-background.jpg": "/portfolio/static/media/home-background.05a4d26d014aee4e84a9.jpg",
+    "static/media/europass-diploma.pdf": "/portfolio/static/media/europass-diploma.84fee2bec1995f5d114b.pdf",
+    "static/media/CV.pdf": "/portfolio/static/media/CV.645043abb479bc514911.pdf",
+    "static/media/sql-logo.png": "/portfolio/static/media/sql-logo.a9153c7bd9c8b20cdb2b.png",
+    "static/media/formula-one.png": "/portfolio/static/media/formula-one.4de842e5f098e3dd70f0.png",
+    "static/media/rafa-gomez.jpg": "/portfolio/static/media/rafa-gomez.e75af6c6879d821fe50c.jpg",
+    "static/media/dotnet-logo.png": "/portfolio/static/media/dotnet-logo.3782cbb62def574f4680.png",
+    "static/media/csharp-logo.png": "/portfolio/static/media/csharp-logo.7f7159aad7bc573d9ddf.png",
+    "static/media/cesar-manrique-logo.jpg": "/portfolio/static/media/cesar-manrique-logo.38690beca37a751f777e.jpg",
+    "static/media/ull-logo.jpg": "/portfolio/static/media/ull-logo.f642411d80e80d3ad4b6.jpg",
+    "static/media/learn-how-to-code.png": "/portfolio/static/media/learn-how-to-code.cb8047233b60e30edb35.png",
+    "static/media/smooth-match-3.png": "/portfolio/static/media/smooth-match-3.0677e73167f6a0bb178e.png",
+    "static/media/css-logo.png": "/portfolio/static/media/css-logo.00a872a89b6592ae66e4.png",
+    "index.html": "/portfolio/index.html",
+    "main.bf247b44.css.map": "/portfolio/static/css/main.bf247b44.css.map",
+    "main.8bab29b5.js.map": "/portfolio/static/js/main.8bab29b5.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf247b44.css",
+    "static/js/main.8bab29b5.js"
+  ]
+}
