@@ -28,7 +28,7 @@ class Navbar extends Component {
             className={this.state.clicked ? "#navbar active" : "#navbar"}
           >
             <li>
-              <NavLink to="/">
+              <NavLink to="/portfolio">
                 <AiOutlineHome className="navbar-icons" />
                 Home
               </NavLink>
