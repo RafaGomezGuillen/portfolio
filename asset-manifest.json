@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bf247b44.css",
-    "main.js": "/portfolio/static/js/main.1aca9cd6.js",
+    "main.css": "/portfolio/static/css/main.b99565d2.css",
+    "main.js": "/portfolio/static/js/main.e71f0d73.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/logo.png": "/portfolio/static/media/logo.2fc182ac2532ddc32043.png",
     "static/media/home-background.jpg": "/portfolio/static/media/home-background.05a4d26d014aee4e84a9.jpg",
+    "static/media/CV.pdf": "/portfolio/static/media/CV.ac803ee28a6a5bd81ff3.pdf",
     "static/media/europass-diploma.pdf": "/portfolio/static/media/europass-diploma.84fee2bec1995f5d114b.pdf",
-    "static/media/CV.pdf": "/portfolio/static/media/CV.33c1012c9a0cfdf0fc7c.pdf",
     "static/media/sql-logo.png": "/portfolio/static/media/sql-logo.a9153c7bd9c8b20cdb2b.png",
+    "static/media/pet-generator.png": "/portfolio/static/media/pet-generator.47dc84d065ac24eedbc7.png",
     "static/media/formula-one.png": "/portfolio/static/media/formula-one.4de842e5f098e3dd70f0.png",
     "static/media/rafa-gomez.jpg": "/portfolio/static/media/rafa-gomez.e75af6c6879d821fe50c.jpg",
     "static/media/dotnet-logo.png": "/portfolio/static/media/dotnet-logo.3782cbb62def574f4680.png",
@@ -18,12 +19,12 @@
     "static/media/smooth-match-3.png": "/portfolio/static/media/smooth-match-3.0677e73167f6a0bb178e.png",
     "static/media/css-logo.png": "/portfolio/static/media/css-logo.00a872a89b6592ae66e4.png",
     "index.html": "/portfolio/index.html",
-    "main.bf247b44.css.map": "/portfolio/static/css/main.bf247b44.css.map",
-    "main.1aca9cd6.js.map": "/portfolio/static/js/main.1aca9cd6.js.map",
+    "main.b99565d2.css.map": "/portfolio/static/css/main.b99565d2.css.map",
+    "main.e71f0d73.js.map": "/portfolio/static/js/main.e71f0d73.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf247b44.css",
-    "static/js/main.1aca9cd6.js"
+    "static/css/main.b99565d2.css",
+    "static/js/main.e71f0d73.js"
   ]
 }
