@@ -8,6 +8,7 @@ import formulaOne from "../assets/formula-one.png";
 import cv from "../assets/CV.pdf";
 import europassDiploma from "../assets/europass-diploma.pdf";
 import rafaGomez from "../assets/rafa-gomez.jpg";
+import petGenerator from "../assets/pet-generator.png";
 
 export default {
   logo,
@@ -20,4 +21,5 @@ export default {
   cv,
   europassDiploma,
   rafaGomez,
+  petGenerator
 };
