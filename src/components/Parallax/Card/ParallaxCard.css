@@ -41,15 +41,15 @@
 
 @keyframes logos {
   0%, 16.66% {
-    background-image: url("../../../assets/html-logo.png");
+    background-image: url("../../../assets/ionic-logo.png");
   }
 
   16.67%, 33.33% {
-    background-image: url("../../../assets/css-logo.png");
+    background-image: url("../../../assets/firebase-logo.png");
   }
 
   33.34%, 50% {
-    background-image: url("../../../assets/csharp-logo.png");
+    background-image: url("../../../assets/angular-logo.png");
   }
 
   50.01%, 66.66% {

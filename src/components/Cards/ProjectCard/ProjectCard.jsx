@@ -1,8 +1,8 @@
 import React from "react";
 import "./ProjectCard.css";
-import { AiFillGithub } from "react-icons/ai";
+import { AiOutlineLink } from "react-icons/ai";
 
-const ProjectCard = ({ image: Image, title, paragraph, link }) => {
+const ProjectCard = ({ image: Image, title, paragraph, link, web }) => {
   return (
     <div className="project-card">
       <div
@@ -12,8 +12,8 @@ const ProjectCard = ({ image: Image, title, paragraph, link }) => {
       <h1>{title}</h1>
       <p>{paragraph}</p>
       <a href={link}>
-        <AiFillGithub style={{ width: "25px", height: "25px" }} />{" "}
-        <span>GitHub</span>
+        <AiOutlineLink style={{ width: "25px", height: "25px" }} />{" "}
+        <span>{web}</span>
       </a>
     </div>
   );

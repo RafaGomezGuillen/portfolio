@@ -1,25 +1,22 @@
 import React from "react";
 import "./About.css";
 import { images } from "../../constants";
-import { AiFillHtml5 } from "react-icons/ai";
 import {
-  FaCss3Alt,
   FaReact,
-  FaBootstrap,
   FaWindows,
   FaGithub,
 } from "react-icons/fa";
 import {
   SiCsharp,
   SiDotnet,
-  SiJavascript,
-  SiBlazor,
   SiMicrosoftsqlserver,
   SiIonic,
   SiVisualstudio,
   SiVisualstudiocode,
   SiMicrosoftazure,
   SiTypescript,
+  SiAngular,
+  SiFirebase
 } from "react-icons/si";
 import SkillsetCard from "../Cards/SkillsetCard/SkillsetCard";
 
@@ -57,21 +54,16 @@ const About = () => {
           I have <span style={{ color: "#ff5277" }}>Worked</span> with
         </h1>
         <div className="technologie-cards-row">
+          <SkillsetCard icon={SiAngular} />
           <SkillsetCard icon={FaReact} />
-          <SkillsetCard icon={SiDotnet} />
           <SkillsetCard icon={SiIonic} />
-          <SkillsetCard icon={SiBlazor} />
+          <SkillsetCard icon={SiFirebase} />
         </div>
         <div className="technologie-cards-row">
+          <SkillsetCard icon={SiDotnet} />
           <SkillsetCard icon={SiCsharp} />
-          <SkillsetCard icon={SiJavascript} />
           <SkillsetCard icon={SiTypescript} />
           <SkillsetCard icon={SiMicrosoftsqlserver} />
-        </div>
-        <div className="technologie-cards-row">
-          <SkillsetCard icon={AiFillHtml5} />
-          <SkillsetCard icon={FaCss3Alt} />
-          <SkillsetCard icon={FaBootstrap} />
         </div>
       </div>
 

@@ -19,9 +19,7 @@ const Home = () => {
           <a href="https://cifpcesarmanrique.es/">CIFP César Manrique</a>.
           <br />
           <br />
-          Additionally, I am looking for an exciting opportunity abroad to
-          participate in the Erasmus program and enrich my training as a web
-          application development student.
+          I am eager to start my career as a web application development student and gain valuable experience in the field. I have a strong interest in creating user-friendly and secure websites and applications for various clients and purposes.
         </p>
       </div>
 
