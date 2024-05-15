@@ -28,3 +28,14 @@ body {
 a {
   text-decoration: none;
 }
+
+/* scroll bar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+  border-radius: 8px;
+}

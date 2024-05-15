@@ -1,7 +1,7 @@
 import React from "react";
 import "./ParallaxCard.css";
 
-function ParallaxCard({ title }) {
+const ParallaxCard = ({ title }) => {
   return (
     <div className="tilt-box-wrap">
       <span className="t_over"></span>
@@ -14,11 +14,11 @@ function ParallaxCard({ title }) {
       <span className="t_over"></span>
       <span className="t_over"></span>
       <div className="tilt-box">
-        <h1>{title}</h1>
+        <h5>{title}</h5>
         <div></div>
       </div>
     </div>
   );
-}
+};
 
 export default ParallaxCard;

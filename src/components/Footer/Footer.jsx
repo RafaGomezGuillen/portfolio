@@ -12,16 +12,24 @@ const Footer = () => {
       <div>COPYRIGHT © {year} RG</div>
       <div>
         <ul className="footer-icons">
-          <a href="https://github.com/RafaGomezGuillen">
-            <li>
+          <li>
+            <a
+              title="Go to Rafael Gómez GitHub profile page"
+              href="https://github.com/RafaGomezGuillen"
+              target="_blank"
+            >
               <AiFillGithub className="footer-icons-img" />
-            </li>
-          </a>
-          <a href="https://www.linkedin.com/in/rafael-g%C3%B3mez-guill%C3%A9n/?locale=en_US">
-            <li>
+            </a>
+          </li>
+          <li>
+            <a
+              title="Go to Rafael Gómez LinkedIn profile page"
+              href="https://www.linkedin.com/in/rafael-g%C3%B3mez-guill%C3%A9n/?locale=en_US"
+              target="_blank"
+            >
               <AiFillLinkedin className="footer-icons-img" />
-            </li>
-          </a>
+            </a>
+          </li>
         </ul>
       </div>
     </footer>

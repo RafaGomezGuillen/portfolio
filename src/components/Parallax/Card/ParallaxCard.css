@@ -41,31 +41,32 @@
 
 @keyframes logos {
   0%, 16.66% {
-    background-image: url("../../../assets/ionic-logo.png");
-  }
-
-  16.67%, 33.33% {
-    background-image: url("../../../assets/firebase-logo.png");
-  }
-
-  33.34%, 50% {
-    background-image: url("../../../assets/angular-logo.png");
-  }
-
-  50.01%, 66.66% {
-    background-image: url("../../../assets/dotnet-logo.png");
-  }
-
-  66.67%, 83.33% {
     background-image: url("../../../assets/react-logo.png");
   }
 
+  16.67%, 33.33% {
+    background-image: url("../../../assets/angular-logo.png");
+  }
+  
+  33.34%, 50% {
+    background-image: url("../../../assets/dotnet-logo.png");
+  }
+
+  50.01%, 66.66% {
+    background-image: url("../../../assets/django-logo.png");
+  }
+
+  66.67%, 83.33% {
+    background-image: url("../../../assets/tailwind-css-logo.png");
+  }
+
   83.34%, 100% {
-    background-image: url("../../../assets/sql-logo.png");
+    background-image: url("../../../assets/pandas-logo.jpg");
   }
 }
 
-.tilt-box h1 {
+.tilt-box h5 {
+  font-size: 24px;
   transform: translateZ(40px);
   position: relative;
   top: 25px;

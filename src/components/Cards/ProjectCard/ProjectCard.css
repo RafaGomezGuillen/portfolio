@@ -8,6 +8,7 @@
   margin-top: 25px;
   justify-content: space-between;
   margin: auto;
+  margin-bottom: 25px;
   height: 650px;
 }
 
@@ -23,7 +24,7 @@
   background-size: contain;
 }
 
-.project-card h1 {
+.project-card h2 {
   margin-top: 15px;
   font-family: "Noe Display";
   color: var(--color-primary);

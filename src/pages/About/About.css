@@ -27,20 +27,25 @@
 
 .about-presentation-col p {
   font-size: 25px;
-  text-align: start;
+  text-align: justify;
 }
 
-.technologie-cards h1 {
+.technologie-cards {
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
+.technologie-cards p {
   font-family: "Noe Display";
   text-align: center;
   font-size: 3em;
   font-weight: 500;
-  padding-top: 10px;
 }
 
 .technologie-cards-row {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 25px; 
 }
 
 @media screen and (max-width: 1200px) {
@@ -60,5 +65,16 @@
 
   .about-presentation-col p {
     font-size: 22px;
+  }
+
+  .technologie-cards-row {
+    grid-template-columns: repeat(3, 1fr); 
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .technologie-cards-row {
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 15px; 
   }
 }

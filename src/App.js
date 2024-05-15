@@ -6,22 +6,27 @@ import {
   Navigate,
 } from "react-router-dom";
 import "./App.css";
-import { Navbar, Footer, Home, About, Projects, Resume } from "./components";
+
+// Components
+import { Navbar, Footer } from "./components";
+
+// Pages
+import { Home, About, Projects, Resume } from "./pages";
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Navbar />
-        <div className="content">
+        <main className="content">
           <Routes>
             <Route path="/portfolio" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
+            <Route path="/works" element={<Projects />} />
             <Route path="/resume" element={<Resume />} />
             <Route path="*" element={<Navigate to="/portfolio" />} />
           </Routes>
-        </div>
+        </main>
       </div>
       <Footer />
     </Router>

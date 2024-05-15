@@ -1,24 +1,23 @@
 .skillset-card {
+  display: flex;
   border: 1.7px solid rgba(67, 169, 163, 1);
   border-radius: 5px;
   box-shadow: 2px 2.5px 2px 1.5px rgba(67, 169, 163, 0.5);
   font-size: 90px;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
   transition: all 0.4s ease 0s;
-  flex-basis: 20%;
-  margin: auto;
   margin-top: 25px;
-  justify-content: space-between;
-  padding-top: 10px;
+  padding: 20px;
+  color: white;
 }
 
 .skillset-card:hover {
   transform: scale(1.05);
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 600px) {
   .skillset-card {
-    flex-basis: 40%;
+    padding: 15px;
   }
 }
-

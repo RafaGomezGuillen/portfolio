@@ -28,16 +28,16 @@ export const Contact = () => {
   };
 
   return (
-    <div class="contact">
-      <h1>Or send me a message!</h1>
+    <div className="contact">
+      <h6>Or send me a message!</h6>
       <p>
         Have a question, proposal, or simply want to say hello? Don't hesitate
         to reach out!
       </p>
-      <form ref={form} class="contact-form" onSubmit={sendEmail}>
-        <div class="row">
-          <div class="column">
-            <label for="name">Your Name</label>
+      <form ref={form} className="contact-form" onSubmit={sendEmail}>
+        <div className="row">
+          <div className="column">
+            <label htmlFor="name">Your Name</label>
             <input
               type="text"
               id="name"
@@ -46,8 +46,8 @@ export const Contact = () => {
               placeholder="Enter your name"
             />
           </div>
-          <div class="column">
-            <label for="email">Your Email</label>
+          <div className="column">
+            <label htmlFor="email">Your Email</label>
             <input
               type="email"
               id="email"
@@ -57,9 +57,9 @@ export const Contact = () => {
             />
           </div>
         </div>
-        <div class="row">
-          <div class="column">
-            <label for="name">Your Message</label>
+        <div className="row">
+          <div className="column">
+            <label htmlFor="message">Your Message</label>
             <textarea
               id="message"
               name="message"
@@ -69,8 +69,8 @@ export const Contact = () => {
             ></textarea>
           </div>
         </div>
-        <div class="row">
-          <div class="column">
+        <div className="row">
+          <div className="column">
             <input type="submit" value="Send email" />
           </div>
         </div>

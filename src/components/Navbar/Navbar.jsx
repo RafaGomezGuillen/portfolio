@@ -7,6 +7,29 @@ import { images } from "../../constants";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
+const navbarItems = [
+  {
+    label: "Home",
+    icon: <AiOutlineHome className="navbar-icons" />,
+    link: "/portfolio",
+  },
+  {
+    label: "About",
+    icon: <IoPersonOutline className="navbar-icons" />,
+    link: "/about",
+  },
+  {
+    label: "Works",
+    icon: <FaLaptopCode className="navbar-icons" />,
+    link: "/works",
+  },
+  {
+    label: "Resume",
+    icon: <FaRegFileAlt className="navbar-icons" />,
+    link: "/resume",
+  },
+];
+
 class Navbar extends Component {
   state = { clicked: false };
 
@@ -19,38 +42,26 @@ class Navbar extends Component {
   render() {
     return (
       <nav>
-        <NavLink to="/portfolio" className="navbar-logo">
-          <img src={images.logo} alt="logo" />
+        <NavLink
+          title="Go to home page"
+          to="/portfolio"
+          className="navbar-logo"
+        >
+          <img src={images.logo} alt="Rafael Gómez logo" />
         </NavLink>
         <div>
           <ul
             id="navbar"
             className={this.state.clicked ? "#navbar active" : "#navbar"}
           >
-            <li>
-              <NavLink to="/portfolio">
-                <AiOutlineHome className="navbar-icons" />
-                Home
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/about">
-                <IoPersonOutline className="navbar-icons" />
-                About
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/projects">
-                <FaLaptopCode className="navbar-icons" />
-                Projects
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/resume">
-                <FaRegFileAlt className="navbar-icons" />
-                Resume
-              </NavLink>
-            </li>
+            {navbarItems.map((item, index) => (
+              <li key={index}>
+                <NavLink title={`Go to ${item.label} page`} to={item.link}>
+                  {item.icon}
+                  {item.label}
+                </NavLink>
+              </li>
+            ))}
           </ul>
         </div>
         <div id="mobile" onClick={this.handleClick}>

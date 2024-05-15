@@ -9,9 +9,9 @@ const ProjectCard = ({ image: Image, title, paragraph, link, web }) => {
         className="project-card-img"
         style={{ backgroundImage: `url(${Image})` }}
       ></div>
-      <h1>{title}</h1>
+      <h2>{title}</h2>
       <p>{paragraph}</p>
-      <a href={link}>
+      <a href={link} title={`Go to ${title} ${web}`} target="_blank">
         <AiOutlineLink style={{ width: "25px", height: "25px" }} />{" "}
         <span>{web}</span>
       </a>

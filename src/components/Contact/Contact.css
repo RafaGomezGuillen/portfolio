@@ -1,4 +1,4 @@
-.contact h1 {
+.contact h6 {
   font-family: "Noe Display";
   text-align: center;
   font-size: 51px;
@@ -43,7 +43,7 @@ textarea {
   padding: 10px;
   margin-bottom: 10px;
   border: none;
-  color: var(--color-text-offset);
+  color: var(--color-text);
   background: transparent;
   border-right: 2.5px solid var(--color-primary);
   border-bottom: 2.5px solid var(--color-primary);
@@ -81,7 +81,7 @@ input[type="submit"]:hover {
 }
 
 @media screen and (max-width: 650px) {
-  .contact h1 {
+  .contact h6 {
     font-size: 40px;
     line-height: 47px;
     letter-spacing: 0;
@@ -89,7 +89,7 @@ input[type="submit"]:hover {
 
   .contact p {
     font-size: 20px;
-    line-height: 20px;
+    line-height: 26px;
   }
 
   .column {
