@@ -5,7 +5,6 @@ import learnHowToCode from "../assets/learn-how-to-code.png";
 import cesarManriqueLogo from "../assets/cesar-manrique-logo.jpg";
 import formulaOne from "../assets/formula-one.png";
 import cv from "../assets/CV.pdf";
-import europassDiploma from "../assets/europass-diploma.pdf";
 import rafaGomez from "../assets/rafa-gomez.jpg";
 import petGenerator from "../assets/pet-generator.png";
 import symphobeats from "../assets/symphobeats.JPG";
@@ -18,7 +17,6 @@ export default {
   cesarManriqueLogo,
   formulaOne,
   cv,
-  europassDiploma,
   rafaGomez,
   petGenerator,
   symphobeats
