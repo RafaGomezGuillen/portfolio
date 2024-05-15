@@ -141,7 +141,7 @@ const Projects = () => {
   return (
     <div className="project">
       <h1>
-        <label style={{ color: "#ff5277" }}>Experince</label> gained
+        Gained <label style={{ color: "#ff5277" }}>experience</label>
       </h1>
 
       <div className="project-cards">
