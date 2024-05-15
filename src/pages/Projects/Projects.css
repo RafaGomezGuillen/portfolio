@@ -23,6 +23,19 @@
 
 .project-cards {
   margin-top: 50px;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 25px; 
+}
+
+@media screen and (max-width: 1200px) {
+  .project-cards {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .project-cards {
+    grid-template-columns: repeat(1, 1fr); 
+  }
 }

@@ -56,7 +56,11 @@ class Navbar extends Component {
           >
             {navbarItems.map((item, index) => (
               <li key={index}>
-                <NavLink title={`Go to ${item.label} page`} to={item.link}>
+                <NavLink
+                  onClick={this.handleClick}
+                  title={`Go to ${item.label} page`}
+                  to={item.link}
+                >
                   {item.icon}
                   {item.label}
                 </NavLink>

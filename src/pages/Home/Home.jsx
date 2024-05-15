@@ -19,6 +19,7 @@ const Home = () => {
             title="Go to CIFP César Manrique page"
             href="https://cifpcesarmanrique.es/"
             target="_blank"
+            rel="noreferrer"
           >
             CIFP César Manrique
           </a>{" "}
@@ -58,6 +59,7 @@ const Home = () => {
                   title="Go to Rafael Gómez GitHub profile page"
                   href="https://github.com/RafaGomezGuillen"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <AiFillGithub className="home-icons-img" />
                 </a>
@@ -67,6 +69,7 @@ const Home = () => {
                   title="Go to Rafael Gómez LinkedIn profile page"
                   href="https://www.linkedin.com/in/rafael-g%C3%B3mez-guill%C3%A9n/?locale=en_US"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <AiFillLinkedin className="home-icons-img" />
                 </a>

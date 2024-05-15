@@ -1,20 +1,32 @@
 import React from "react";
 import "./ProjectCard.css";
 import { AiOutlineLink } from "react-icons/ai";
+import { FaGithub } from "react-icons/fa";
 
-const ProjectCard = ({ image: Image, title, paragraph, link, web }) => {
+const ProjectCard = ({ image, title, paragraph, links }) => {
   return (
     <div className="project-card">
-      <div
-        className="project-card-img"
-        style={{ backgroundImage: `url(${Image})` }}
-      ></div>
+      <img src={image} alt={title} />
       <h2>{title}</h2>
       <p>{paragraph}</p>
-      <a href={link} title={`Go to ${title} ${web}`} target="_blank">
-        <AiOutlineLink style={{ width: "25px", height: "25px" }} />{" "}
-        <span>{web}</span>
-      </a>
+      <div className="link-container">
+        {links.map((link, index) => (
+          <a
+            key={index}
+            href={link.title}
+            title={`Go to ${title} ${link.type}`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            {link.type === "GitHub" ? (
+              <FaGithub style={{ width: "25px", height: "25px" }} />
+            ) : (
+              <AiOutlineLink style={{ width: "25px", height: "25px" }} />
+            )}
+            <span>{link.type}</span>
+          </a>
+        ))}
+      </div>
     </div>
   );
 };

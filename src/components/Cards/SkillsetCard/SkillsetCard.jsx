@@ -3,7 +3,7 @@ import "./SkillsetCard.css";
 
 const SkillsetCard = ({ icon: Icon, link, title }) => {
   return (
-    <a href={link} title={title} target="_blank">
+    <a href={link} title={title} target="_blank" rel="noreferrer">
       <div className="skillset-card">
         <Icon></Icon>
       </div>
