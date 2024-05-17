@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.0442da23.css",
-    "main.js": "/portfolio/static/js/main.03157c17.js",
+    "main.js": "/portfolio/static/js/main.60de1a29.js",
     "static/js/488.4065c291.chunk.js": "/portfolio/static/js/488.4065c291.chunk.js",
     "static/media/logo.png": "/portfolio/static/media/logo.2fc182ac2532ddc32043.png",
     "static/media/rafa-gomez.jpg": "/portfolio/static/media/rafa-gomez.9508d759e31cc6f2e4ba.jpg",
@@ -9,7 +9,7 @@
     "static/media/angular-logo.png": "/portfolio/static/media/angular-logo.df481f8cfd1dc4ad3f23.png",
     "static/media/pet-generator.png": "/portfolio/static/media/pet-generator.47dc84d065ac24eedbc7.png",
     "static/media/formula-one.png": "/portfolio/static/media/formula-one.4de842e5f098e3dd70f0.png",
-    "static/media/CV.pdf": "/portfolio/static/media/CV.571d9c9e895fb6483837.pdf",
+    "static/media/CV.pdf": "/portfolio/static/media/CV.4ce0cd79a88b83a19280.pdf",
     "static/media/dotnet-logo.png": "/portfolio/static/media/dotnet-logo.3782cbb62def574f4680.png",
     "static/media/cesar-manrique-logo.jpg": "/portfolio/static/media/cesar-manrique-logo.38690beca37a751f777e.jpg",
     "static/media/learn-how-to-code.png": "/portfolio/static/media/learn-how-to-code.cb8047233b60e30edb35.png",
@@ -18,11 +18,11 @@
     "static/media/symphobeats.JPG": "/portfolio/static/media/symphobeats.4f21621d82a6ecf0614a.JPG",
     "index.html": "/portfolio/index.html",
     "main.0442da23.css.map": "/portfolio/static/css/main.0442da23.css.map",
-    "main.03157c17.js.map": "/portfolio/static/js/main.03157c17.js.map",
+    "main.60de1a29.js.map": "/portfolio/static/js/main.60de1a29.js.map",
     "488.4065c291.chunk.js.map": "/portfolio/static/js/488.4065c291.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0442da23.css",
-    "static/js/main.03157c17.js"
+    "static/js/main.60de1a29.js"
   ]
 }
