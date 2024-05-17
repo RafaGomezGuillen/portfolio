@@ -7,7 +7,7 @@ Rafael Gómez Porfolio made in React.
 To deploy and build run:
 
 ```cmd
-npm run build
+npm run deploy
 ```
 
 ## Inspired by
