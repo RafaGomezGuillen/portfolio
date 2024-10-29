@@ -8,6 +8,10 @@ import cv from "../assets/CV.pdf";
 import rafaGomez from "../assets/rafa-gomez.jpg";
 import petGenerator from "../assets/pet-generator.png";
 import symphobeats from "../assets/symphobeats.JPG";
+import vivadrive from "../assets/vivadrive-logo.jpg";
+import canariasSkills from "../assets/canarias-skills-logo.jpg";
+import python from "../assets/python-logo.png";
+import redborder from "../assets/redborder-logo.jpg";
 
 export default {
   logo,
@@ -19,5 +23,9 @@ export default {
   cv,
   rafaGomez,
   petGenerator,
-  symphobeats
+  symphobeats,
+  vivadrive,
+  canariasSkills,
+  python,
+  redborder,
 };

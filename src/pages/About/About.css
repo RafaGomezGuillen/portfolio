@@ -1,5 +1,4 @@
 .about-presentation h1 {
-  font-family: "Noe Display";
   font-size: 112px;
   line-height: 134px;
   text-align: center;
@@ -27,6 +26,7 @@
 
 .about-presentation-col p {
   font-size: 25px;
+  line-height: 35px;
   text-align: justify;
 }
 
@@ -36,7 +36,6 @@
 }
 
 .technologie-cards p {
-  font-family: "Noe Display";
   text-align: center;
   font-size: 3em;
   font-weight: 500;

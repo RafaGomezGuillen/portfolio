@@ -11,10 +11,21 @@ const Home = () => {
     <>
       <div className="home-presentation">
         <h1>hello, my name is Rafael</h1>
-        <h2>I make web apps.</h2>
+        <h2>I am a Software Engineer and Web Application Developer.</h2>
         <p>
-          Hi Everyone, I am Rafael Gómez from Tenerife, Spain and recently
-          graduated from{" "}
+          Hi Everyone, I am Rafael Gómez from Tenerife, Spain and currently
+          working in{" "}
+          <a
+            title="Go to Redborder NDR page"
+            href="https://redborder.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Redborder NDR
+          </a>{" "}
+          as a Software Engineer.
+          <br />
+          <br />I graduated in 2024 from{" "}
           <a
             title="Go to CIFP César Manrique page"
             href="https://cifpcesarmanrique.es/"
@@ -25,11 +36,6 @@ const Home = () => {
           </a>{" "}
           getting a Certificate of Higher Education (HNC) in Web App
           developement.
-          <br />
-          <br />I am eager to expand my career as a web application developer
-          and gain valuable experience in the field. I have a strong interest in
-          creating user-friendly and secure websites and applications for
-          various clients and purposes.
         </p>
       </div>
 

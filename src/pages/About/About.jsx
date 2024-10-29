@@ -8,15 +8,46 @@ import {
   SiTypescript,
   SiAngular,
   SiFirebase,
-  SiSpringboot,
   SiBlazor,
   SiJavascript,
+  SiLogstash,
+  SiApachedruid,
 } from "react-icons/si";
-import { DiDjango, DiJava, DiPython } from "react-icons/di";
-import { SiCplusplus, SiTailwindcss, SiIonic, SiDocker } from "react-icons/si";
+import { DiDjango, DiJava, DiPython, DiRuby } from "react-icons/di";
+import { SiTailwindcss, SiIonic, SiRubyonrails, SiChef } from "react-icons/si";
 import SkillsetCard from "../../components/Cards/SkillsetCard/SkillsetCard";
 
 const sections = [
+  {
+    title: "Redborder NDR stack",
+    tools: [
+      {
+        icon: DiRuby,
+        link: "https://www.ruby-lang.org/en/",
+        title: "Ruby",
+      },
+      {
+        icon: SiRubyonrails,
+        link: "https://rubyonrails.org/",
+        title: "Ruby on Rails",
+      },
+      {
+        icon: SiChef,
+        link: "https://www.chef.io/",
+        title: "Chef server",
+      },
+      {
+        icon: SiLogstash,
+        link: "https://www.elastic.co/es/logstash",
+        title: "Chef server",
+      },
+      {
+        icon: SiApachedruid,
+        link: "https://druid.apache.org/",
+        title: "Apache Druid",
+      },
+    ],
+  },
   {
     title: "Frontend",
     tools: [
@@ -51,11 +82,6 @@ const sections = [
         title: "Django Rest Framework",
       },
       {
-        icon: SiSpringboot,
-        link: "https://spring.io/projects/spring-boot",
-        title: "Spring Boot",
-      },
-      {
         icon: SiFirebase,
         link: "https://firebase.google.com/",
         title: "Firebase",
@@ -82,7 +108,6 @@ const sections = [
         link: "https://developer.mozilla.org/en-US/docs/Web/javascript",
         title: "JavaScript",
       },
-      { icon: SiCplusplus, link: "https://isocpp.org/", title: "C++" },
     ],
   },
   {
@@ -94,7 +119,6 @@ const sections = [
         title: "Tailwind CSS",
       },
       { icon: SiIonic, link: "https://ionicframework.com/", title: "Ionic" },
-      { icon: SiDocker, link: "https://www.docker.com/", title: "Docker" },
     ],
   },
 ];
@@ -110,12 +134,13 @@ const About = () => {
           </div>
           <div className="about-presentation-col">
             <p>
-              I am <span style={{ color: "#43a9a3" }}>Rafael Gómez</span>, a Web
-              Application Developer based in Tenerife, Spain.
+              I am <span style={{ color: "#43a9a3" }}>Rafael Gómez</span>, a
+              Software Engineer and Web Application Developer based in Tenerife,
+              Spain.
               <br />
               <br />
               My <span style={{ color: "#43a9a3" }}>goal</span>, is to
-              contribute to the ever-evolving field of web development,
+              contribute to the ever-evolving field of software development,
               leveraging my technical expertise to deliver impactful solutions
               that meet user needs and exceed expectations.
             </p>
@@ -125,10 +150,18 @@ const About = () => {
 
       {sections.map((section, index) => (
         <div className="technologie-cards" key={index}>
-          <p>
-            <span style={{ color: "#ff5277" }}>{section.title}</span> I worked
-            with
-          </p>
+          {section.title === "Redborder NDR stack" ? (
+            <p>
+              <span style={{ color: "#ff5277" }}>{section.title}</span> I am
+              worked with
+            </p>
+          ) : (
+            <p>
+              <span style={{ color: "#ff5277" }}>{section.title}</span> I have
+              worked with
+            </p>
+          )}
+
           <div className="technologie-cards-row">
             {section.tools.map((tool, toolIndex) => (
               <SkillsetCard
