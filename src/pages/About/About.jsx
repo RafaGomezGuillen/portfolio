@@ -3,7 +3,6 @@ import "./About.css";
 import { images } from "../../constants";
 import { FaReact } from "react-icons/fa";
 import {
-  SiCsharp,
   SiDotnet,
   SiTypescript,
   SiAngular,
@@ -14,6 +13,7 @@ import {
   SiApachedruid,
 } from "react-icons/si";
 import { DiDjango, DiJava, DiPython, DiRuby } from "react-icons/di";
+import { TbBrandCSharp } from "react-icons/tb";
 import { SiTailwindcss, SiIonic, SiRubyonrails, SiChef } from "react-icons/si";
 import SkillsetCard from "../../components/Cards/SkillsetCard/SkillsetCard";
 
@@ -92,7 +92,7 @@ const sections = [
     title: "Programming languages",
     tools: [
       {
-        icon: SiCsharp,
+        icon: TbBrandCSharp,
         link: "https://dotnet.microsoft.com/en-us/languages/csharp",
         title: "C#",
       },
