@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.64846bc9.css",
-    "main.js": "/portfolio/static/js/main.fb28a0b8.js",
-    "static/js/488.4065c291.chunk.js": "/portfolio/static/js/488.4065c291.chunk.js",
+    "main.css": "/portfolio/static/css/main.52b7153e.css",
+    "main.js": "/portfolio/static/js/main.c10f6e63.js",
+    "static/js/488.9561f9b8.chunk.js": "/portfolio/static/js/488.9561f9b8.chunk.js",
     "static/media/logo.png": "/portfolio/static/media/logo.2fc182ac2532ddc32043.png",
-    "static/media/pdf.worker.min.mjs": "/portfolio/static/media/pdf.worker.min.8bec976a1a536e55abd8.mjs",
+    "static/media/pdf.worker.min.mjs": "/portfolio/static/media/pdf.worker.min.48ec784a5edb8e2894b8.mjs",
     "static/media/rafa-gomez.jpg": "/portfolio/static/media/rafa-gomez.9508d759e31cc6f2e4ba.jpg",
     "static/media/home-background.jpg": "/portfolio/static/media/home-background.05a4d26d014aee4e84a9.jpg",
     "static/media/pet-generator.png": "/portfolio/static/media/pet-generator.47dc84d065ac24eedbc7.png",
@@ -20,12 +20,12 @@
     "static/media/chef-logo.png": "/portfolio/static/media/chef-logo.21a9a8fa043ae245ecbe.png",
     "static/media/symphobeats.JPG": "/portfolio/static/media/symphobeats.4f21621d82a6ecf0614a.JPG",
     "index.html": "/portfolio/index.html",
-    "main.64846bc9.css.map": "/portfolio/static/css/main.64846bc9.css.map",
-    "main.fb28a0b8.js.map": "/portfolio/static/js/main.fb28a0b8.js.map",
-    "488.4065c291.chunk.js.map": "/portfolio/static/js/488.4065c291.chunk.js.map"
+    "main.52b7153e.css.map": "/portfolio/static/css/main.52b7153e.css.map",
+    "main.c10f6e63.js.map": "/portfolio/static/js/main.c10f6e63.js.map",
+    "488.9561f9b8.chunk.js.map": "/portfolio/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64846bc9.css",
-    "static/js/main.fb28a0b8.js"
+    "static/css/main.52b7153e.css",
+    "static/js/main.c10f6e63.js"
   ]
 }
