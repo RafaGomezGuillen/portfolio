@@ -12,7 +12,7 @@ Follow these steps to set up and run the project locally.
 
 Ensure you have the following installed:
 
-- [Node.js](https://nodejs.org/)(Check installation with: `node -v`)
+- [Node.js](https://nodejs.org/) (Check installation with: `node -v`)
 
 ### 📥 Installation
 
