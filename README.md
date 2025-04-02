@@ -1,52 +1,61 @@
 # Portfolio
 
-Rafael Gómez Porfolio made in React.
+Welcome to my personal portfolio! This project is built using `React` and showcases my work, skills, and projects.
 
-## Getting Started
+🔗 View it live: [Rafael Gómez Portfolio](https://rafagomezguillen.github.io/portfolio/#/portfolio)
 
-Follow the steps below to set up and run the project locally.
+## 🚀 Getting Started
 
-### Prerequisites
+Follow these steps to set up and run the project locally.
 
-Make sure you have [Node.js](https://nodejs.org/en) installed on your machine. You can check if Node.js is installed by running the following command in your terminal:
+### ✅ Prerequisites
 
-```cmd
-node -v
-```
+Ensure you have the following installed:
 
-### Installation
+- [Node.js](https://nodejs.org/)(Check installation with: `node -v`)
 
-Follow these steps to get project up and running:
+### 📥 Installation
+
+Clone the repository and install dependencies:
 
 1. Clone the repository:
 
 ```cmd
+# Clone the repository
 git clone https://github.com/RafaGomezGuillen/portfolio.git
-```
 
+# Navigate into the project directory
+cd portfolio
+
+# Install dependencies
 npm install
-
-```cmd
-cd portfolio && npm i
 ```
 
-### Running the Application
+### 🏃 Running the Application
 
-After the installation, start the development server:
+Start the development server:
 
 ```cmd
 npm run start
 ```
 
-### Deploy and Build
+### 📦 Building for Production
 
-To deploy and build run:
+To create an optimized production build:
 
 ```cmd
 npm run deploy
 ```
 
-## Inspired by
+### 🚀 Deployment
+
+Deploy the project using:
+
+```cmd
+npm run deploy
+```
+
+## 🎨 Inspired By
 
 - [Max Böck](https://mxb.dev/)
 - [soumyajit4419 | Portfolio](https://soumyajit.vercel.app/about)
