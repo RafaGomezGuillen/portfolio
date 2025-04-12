@@ -7,11 +7,12 @@ import formulaOne from "../assets/formula-one.png";
 import cv from "../assets/CV.pdf";
 import rafaGomez from "../assets/rafa-gomez.jpg";
 import petGenerator from "../assets/pet-generator.png";
-import symphobeats from "../assets/symphobeats.JPG";
-import vivadrive from "../assets/vivadrive-logo.jpg";
+import symphobeats from "../assets/symphobeats.png";
+import vivadrive from "../assets/vivadrive.jpg";
 import canariasSkills from "../assets/canarias-skills-logo.jpg";
 import python from "../assets/python-logo.png";
-import redborder from "../assets/redborder-logo.jpg";
+import redborder from "../assets/redborder.png";
+import whatsappAiAssistant from "../assets/whatsapp-ai-assistant.png";
 
 export default {
   logo,
@@ -28,4 +29,5 @@ export default {
   canariasSkills,
   python,
   redborder,
+  whatsappAiAssistant,
 };
