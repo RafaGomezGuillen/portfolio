@@ -14,7 +14,7 @@ import python from "../assets/python-logo.png";
 import redborder from "../assets/redborder.png";
 import whatsappAiAssistant from "../assets/whatsapp-ai-assistant.png";
 
-export default {
+const images = {
   logo,
   homeBackground,
   smoothMacth3,
@@ -31,3 +31,5 @@ export default {
   redborder,
   whatsappAiAssistant,
 };
+
+export default images;
