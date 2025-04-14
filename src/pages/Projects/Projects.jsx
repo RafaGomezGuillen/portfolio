@@ -156,6 +156,22 @@ const projectCards = [
     ],
   },
   {
+    image: images.happyBirthday,
+    title: "Happy Birthday",
+    paragraph:
+      "This is a colorful and responsive birthday greeting web page built with React, Tailwind CSS, and Framer Motion. It features an animated image carousel, festive colors, and sweet wishes to celebrate birthdays!",
+    links: [
+      {
+        title: "https://rafagomezguillen.github.io/happy-birthday/",
+        type: "Web",
+      },
+      {
+        title: "https://github.com/RafaGomezGuillen/happy-birthday",
+        type: "GitHub",
+      },
+    ],
+  },
+  {
     image: images.cesarManriqueLogo,
     title: "Desarrollo de aplicaciones web",
     paragraph:

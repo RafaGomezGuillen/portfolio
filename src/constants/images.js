@@ -13,6 +13,7 @@ import canariasSkills from "../assets/canarias-skills-logo.jpg";
 import python from "../assets/python-logo.png";
 import redborder from "../assets/redborder.png";
 import whatsappAiAssistant from "../assets/whatsapp-ai-assistant.png";
+import happyBirthday from "../assets/happy-birthday.png";
 
 const images = {
   logo,
@@ -30,6 +31,7 @@ const images = {
   python,
   redborder,
   whatsappAiAssistant,
+  happyBirthday
 };
 
 export default images;
