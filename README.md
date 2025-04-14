@@ -44,7 +44,7 @@ npm run start
 To create an optimized production build:
 
 ```cmd
-npm run deploy
+npm run build
 ```
 
 ### 🚀 Deployment
