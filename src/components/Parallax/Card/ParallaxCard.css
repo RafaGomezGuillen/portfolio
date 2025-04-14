@@ -17,7 +17,7 @@
   height: 100%;
   background: #04527b;
   text-align: center;
-  color: #fff;
+  color: var(--color-text);
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;

@@ -18,7 +18,7 @@ footer div {
 }
 
 .footer-icons-img {
-  color: #fff;
+  color: var(--color-text);
   width: 25px;
   height: 25px;
   transition: transform 0.3s ease;

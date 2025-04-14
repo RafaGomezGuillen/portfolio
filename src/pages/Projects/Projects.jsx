@@ -7,7 +7,7 @@ const experienceCards = [
   {
     image: images.redborder,
     title: "Software Engineer at Redborder NDR",
-    paragraph: `I am currently working in Redborder NDR since June 2024.`,
+    paragraph: `Since June 2024, I have been a member of the software development team at Redborder NDR, a scalable, real-time cybersecurity platform. Redborder integrates advanced technologies such as Next-Generation Intrusion Prevention Systems (NGIPS), Network Traffic Analysis (NTA), and Security Information and Event Management (SIEM) into a unified system. Leveraging big data and AI-powered correlation engines, it provides comprehensive visibility and protection for IT infrastructures.`,
     links: [
       {
         title: "https://redborder.com/",
@@ -28,6 +28,10 @@ const experienceCards = [
       {
         title: "https://vivadrive.io/",
         type: "Web",
+      },
+      {
+        title: "https://github.com/viva-drive",
+        type: "GitHub",
       },
     ],
   },
@@ -50,6 +54,18 @@ const experienceCards = [
 ];
 
 const projectCards = [
+  {
+    image: images.whatsappAiAssistant,
+    title: "WhatsApp AI Assistant",
+    paragraph:
+      "WhatsApp bot project that integrates GPT functionality with WhatsApp, allowing for various features such as text-to-speech, image generation, and more using React JS, Express and Docker.",
+    links: [
+      {
+        title: "https://github.com/RafaGomezGuillen/whatsapp-ai-assistant/",
+        type: "GitHub",
+      },
+    ],
+  },
   {
     image: images.python,
     title: "Python / Data Science",
@@ -135,6 +151,22 @@ const projectCards = [
       },
       {
         title: "https://github.com/RafaGomezGuillen/smooth-games",
+        type: "GitHub",
+      },
+    ],
+  },
+  {
+    image: images.happyBirthday,
+    title: "Happy Birthday",
+    paragraph:
+      "This is a colorful and responsive birthday greeting web page built with React, Tailwind CSS, and Framer Motion. It features an animated image carousel, festive colors, and sweet wishes to celebrate birthdays!",
+    links: [
+      {
+        title: "https://rafagomezguillen.github.io/happy-birthday/",
+        type: "Web",
+      },
+      {
+        title: "https://github.com/RafaGomezGuillen/happy-birthday",
         type: "GitHub",
       },
     ],

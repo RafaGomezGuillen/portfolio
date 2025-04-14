@@ -1,23 +1,36 @@
-.skillset-card {
-  display: flex;
+.skillset-card-container {
   border: 1.7px solid rgba(67, 169, 163, 1);
   border-radius: 5px;
+  padding: 15px;
   box-shadow: 2px 2.5px 2px 1.5px rgba(67, 169, 163, 0.5);
-  font-size: 90px;
-  justify-content: center;
-  align-items: center;
-  transition: all 0.4s ease 0s;
   margin-top: 25px;
-  padding: 20px;
-  color: white;
-}
-
-.skillset-card:hover {
-  transform: scale(1.05);
-}
-
-@media screen and (max-width: 600px) {
+  
   .skillset-card {
-    padding: 15px;
+    display: flex;
+    font-size: 90px;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-text);
+    transition: all 0.4s ease 0s;
+  }
+
+  .skillset-card:hover {
+    transform: scale(1.05);
+  }
+
+  @media screen and (max-width: 600px) {
+    .skillset-card {
+      padding: 15px;
+    }
+  }
+
+  .skillset-card-title {
+    p {
+      font-size: 20px;
+      margin: 0;
+      text-align: center;
+      color: var(--color-text);
+      margin-top: 15px;
+    }
   }
 }

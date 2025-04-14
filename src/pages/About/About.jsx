@@ -11,6 +11,8 @@ import {
   SiJavascript,
   SiLogstash,
   SiApachedruid,
+  SiDocker,
+  SiExpress
 } from "react-icons/si";
 import { DiDjango, DiJava, DiPython, DiRuby } from "react-icons/di";
 import { TbBrandCSharp } from "react-icons/tb";
@@ -39,7 +41,7 @@ const sections = [
       {
         icon: SiLogstash,
         link: "https://www.elastic.co/es/logstash",
-        title: "Chef server",
+        title: "Logstash",
       },
       {
         icon: SiApachedruid,
@@ -82,6 +84,11 @@ const sections = [
         title: "Django Rest Framework",
       },
       {
+        icon: SiExpress,
+        link: "https://expressjs.com/",
+        title: "Express JS",
+      },
+      {
         icon: SiFirebase,
         link: "https://firebase.google.com/",
         title: "Firebase",
@@ -118,6 +125,7 @@ const sections = [
         link: "https://tailwindcss.com/",
         title: "Tailwind CSS",
       },
+      { icon: SiDocker, link: "https://www.docker.com/", title: "Docker" },
       { icon: SiIonic, link: "https://ionicframework.com/", title: "Ionic" },
     ],
   },
@@ -153,7 +161,7 @@ const About = () => {
           {section.title === "Redborder NDR stack" ? (
             <p>
               <span style={{ color: "#ff5277" }}>{section.title}</span> I am
-              worked with
+              working with
             </p>
           ) : (
             <p>
@@ -169,6 +177,7 @@ const About = () => {
                 icon={tool.icon}
                 link={tool.link}
                 title={`Go to ${tool.title} page`}
+                subtitle={tool.title}
               />
             ))}
           </div>

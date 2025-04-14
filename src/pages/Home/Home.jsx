@@ -28,7 +28,7 @@ const Home = () => {
           <br />I graduated in 2024 from{" "}
           <a
             title="Go to CIFP César Manrique page"
-            href="https://cifpcesarmanrique.es/"
+            href="https://www.linkedin.com/school/cifp-c%C3%A9sar-manrique-formaci%C3%B3n-profesional/"
             target="_blank"
             rel="noreferrer"
           >
