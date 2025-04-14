@@ -1,31 +1,34 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.52b7153e.css",
-    "main.js": "/portfolio/static/js/main.c10f6e63.js",
+    "main.css": "/portfolio/static/css/main.2ed1dd5c.css",
+    "main.js": "/portfolio/static/js/main.1c6d1242.js",
     "static/js/488.9561f9b8.chunk.js": "/portfolio/static/js/488.9561f9b8.chunk.js",
+    "static/media/happy-birthday.png": "/portfolio/static/media/happy-birthday.86c850d62d2d9d35bfa6.png",
+    "static/media/pet-generator.png": "/portfolio/static/media/pet-generator.567aab315820b14b8085.png",
+    "static/media/symphobeats.png": "/portfolio/static/media/symphobeats.a1f3c3fe91ffa9101a79.png",
     "static/media/logo.png": "/portfolio/static/media/logo.2fc182ac2532ddc32043.png",
     "static/media/pdf.worker.min.mjs": "/portfolio/static/media/pdf.worker.min.48ec784a5edb8e2894b8.mjs",
+    "static/media/whatsapp-ai-assistant.png": "/portfolio/static/media/whatsapp-ai-assistant.73324a214075887bf25c.png",
     "static/media/rafa-gomez.jpg": "/portfolio/static/media/rafa-gomez.9508d759e31cc6f2e4ba.jpg",
     "static/media/home-background.jpg": "/portfolio/static/media/home-background.05a4d26d014aee4e84a9.jpg",
-    "static/media/pet-generator.png": "/portfolio/static/media/pet-generator.47dc84d065ac24eedbc7.png",
     "static/media/formula-one.png": "/portfolio/static/media/formula-one.4de842e5f098e3dd70f0.png",
     "static/media/ruby-logo.png": "/portfolio/static/media/ruby-logo.2dadaf85f2f2ec3bc660.png",
-    "static/media/CV.pdf": "/portfolio/static/media/CV.4ce0cd79a88b83a19280.pdf",
+    "static/media/CV.pdf": "/portfolio/static/media/CV.ea3a4be0e2997065d39a.pdf",
     "static/media/python-logo.png": "/portfolio/static/media/python-logo.52d7bb207f9868b90e39.png",
     "static/media/canarias-skills-logo.jpg": "/portfolio/static/media/canarias-skills-logo.4946f9b75bdc21c3fefd.jpg",
     "static/media/cesar-manrique-logo.jpg": "/portfolio/static/media/cesar-manrique-logo.38690beca37a751f777e.jpg",
     "static/media/learn-how-to-code.png": "/portfolio/static/media/learn-how-to-code.cb8047233b60e30edb35.png",
     "static/media/smooth-match-3.png": "/portfolio/static/media/smooth-match-3.0677e73167f6a0bb178e.png",
+    "static/media/redborder.png": "/portfolio/static/media/redborder.2a230476694dbb90d5d5.png",
     "static/media/druid-logo.jpg": "/portfolio/static/media/druid-logo.919091d7439b5aab5bf0.jpg",
     "static/media/chef-logo.png": "/portfolio/static/media/chef-logo.21a9a8fa043ae245ecbe.png",
-    "static/media/symphobeats.JPG": "/portfolio/static/media/symphobeats.4f21621d82a6ecf0614a.JPG",
     "index.html": "/portfolio/index.html",
-    "main.52b7153e.css.map": "/portfolio/static/css/main.52b7153e.css.map",
-    "main.c10f6e63.js.map": "/portfolio/static/js/main.c10f6e63.js.map",
+    "main.2ed1dd5c.css.map": "/portfolio/static/css/main.2ed1dd5c.css.map",
+    "main.1c6d1242.js.map": "/portfolio/static/js/main.1c6d1242.js.map",
     "488.9561f9b8.chunk.js.map": "/portfolio/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.52b7153e.css",
-    "static/js/main.c10f6e63.js"
+    "static/css/main.2ed1dd5c.css",
+    "static/js/main.1c6d1242.js"
   ]
 }
