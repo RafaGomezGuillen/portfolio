@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2ed1dd5c.css",
-    "main.js": "/portfolio/static/js/main.1c6d1242.js",
+    "main.js": "/portfolio/static/js/main.42ad50ae.js",
     "static/js/488.9561f9b8.chunk.js": "/portfolio/static/js/488.9561f9b8.chunk.js",
     "static/media/happy-birthday.png": "/portfolio/static/media/happy-birthday.86c850d62d2d9d35bfa6.png",
     "static/media/pet-generator.png": "/portfolio/static/media/pet-generator.567aab315820b14b8085.png",
@@ -13,7 +13,7 @@
     "static/media/home-background.jpg": "/portfolio/static/media/home-background.05a4d26d014aee4e84a9.jpg",
     "static/media/formula-one.png": "/portfolio/static/media/formula-one.4de842e5f098e3dd70f0.png",
     "static/media/ruby-logo.png": "/portfolio/static/media/ruby-logo.2dadaf85f2f2ec3bc660.png",
-    "static/media/CV.pdf": "/portfolio/static/media/CV.ea3a4be0e2997065d39a.pdf",
+    "static/media/CV.pdf": "/portfolio/static/media/CV.402b74f4842613a43f2b.pdf",
     "static/media/python-logo.png": "/portfolio/static/media/python-logo.52d7bb207f9868b90e39.png",
     "static/media/canarias-skills-logo.jpg": "/portfolio/static/media/canarias-skills-logo.4946f9b75bdc21c3fefd.jpg",
     "static/media/cesar-manrique-logo.jpg": "/portfolio/static/media/cesar-manrique-logo.38690beca37a751f777e.jpg",
@@ -24,11 +24,11 @@
     "static/media/chef-logo.png": "/portfolio/static/media/chef-logo.21a9a8fa043ae245ecbe.png",
     "index.html": "/portfolio/index.html",
     "main.2ed1dd5c.css.map": "/portfolio/static/css/main.2ed1dd5c.css.map",
-    "main.1c6d1242.js.map": "/portfolio/static/js/main.1c6d1242.js.map",
+    "main.42ad50ae.js.map": "/portfolio/static/js/main.42ad50ae.js.map",
     "488.9561f9b8.chunk.js.map": "/portfolio/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2ed1dd5c.css",
-    "static/js/main.1c6d1242.js"
+    "static/js/main.42ad50ae.js"
   ]
 }
