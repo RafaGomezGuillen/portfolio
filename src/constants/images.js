@@ -11,9 +11,10 @@ import symphobeats from "../assets/symphobeats.png";
 import vivadrive from "../assets/vivadrive.jpg";
 import canariasSkills from "../assets/canarias-skills-logo.jpg";
 import python from "../assets/python-logo.png";
-import redborder from "../assets/redborder.png";
+import redborder from "../assets/redborder.jpg";
 import whatsappAiAssistant from "../assets/whatsapp-ai-assistant.png";
 import happyBirthday from "../assets/happy-birthday.png";
+import indra from "../assets/logo_indra.jpg";
 
 const images = {
   logo,
@@ -31,7 +32,8 @@ const images = {
   python,
   redborder,
   whatsappAiAssistant,
-  happyBirthday
+  happyBirthday,
+  indra,
 };
 
 export default images;

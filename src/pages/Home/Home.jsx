@@ -4,7 +4,6 @@ import { ParallaxBackgorund } from "../../components/Parallax/Background/Paralla
 import ParallaxCard from "../../components/Parallax/Card/ParallaxCard";
 import { images } from "../../constants";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import { Contact } from "../../components";
 
 const Home = () => {
   return (
@@ -14,16 +13,16 @@ const Home = () => {
         <h2>I am a Software Engineer and Web Application Developer.</h2>
         <p>
           Hi Everyone, I am Rafael Gómez from Tenerife, Spain and currently
-          working in{" "}
+          working at{" "}
           <a
-            title="Go to Redborder NDR page"
-            href="https://redborder.com/"
+            title="Go to Indra page"
+            href="https://www.indragroup.com/es"
             target="_blank"
             rel="noreferrer"
           >
-            Redborder NDR
+            Indra 
           </a>{" "}
-          as a Software Engineer.
+          remotly as a Software Engineer.
           <br />
           <br />I graduated in 2024 from{" "}
           <a
@@ -87,8 +86,6 @@ const Home = () => {
           <ParallaxCard title={"currently working with"} />
         </div>
       </div>
-
-      <Contact />
     </>
   );
 };

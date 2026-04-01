@@ -1,27 +1,23 @@
 import React from "react";
 import "./About.css";
 import { images } from "../../constants";
-import { FaReact } from "react-icons/fa";
+import { FaReact, FaLinux, FaBootstrap } from "react-icons/fa";
+import { SiLogstash, SiApachedruid, SiDocker, SiRedis } from "react-icons/si";
+import { DiDjango, DiPython, DiRuby } from "react-icons/di";
 import {
-  SiDotnet,
-  SiTypescript,
-  SiAngular,
-  SiFirebase,
-  SiBlazor,
-  SiJavascript,
-  SiLogstash,
-  SiApachedruid,
-  SiDocker,
-  SiExpress
+  SiTailwindcss,
+  SiRubyonrails,
+  SiChef,
+  SiApachekafka,
+  SiLeaflet,
 } from "react-icons/si";
-import { DiDjango, DiJava, DiPython, DiRuby } from "react-icons/di";
-import { TbBrandCSharp } from "react-icons/tb";
-import { SiTailwindcss, SiIonic, SiRubyonrails, SiChef } from "react-icons/si";
+import { BiLogoPostgresql, BiLogoGoLang } from "react-icons/bi";
 import SkillsetCard from "../../components/Cards/SkillsetCard/SkillsetCard";
 
 const sections = [
   {
-    title: "Redborder NDR stack",
+    title: "Indra stack",
+    link: "https://www.indragroup.com/",
     tools: [
       {
         icon: DiRuby,
@@ -33,6 +29,60 @@ const sections = [
         link: "https://rubyonrails.org/",
         title: "Ruby on Rails",
       },
+      {
+        icon: FaBootstrap,
+        link: "https://getbootstrap.com/",
+        title: "Bootstrap",
+      },
+      {
+        icon: BiLogoPostgresql,
+        link: "https://www.postgresql.org/",
+        title: "PostgreSQL",
+      },
+      {
+        icon: SiRedis,
+        link: "https://redis.io/",
+        title: "Redis",
+      },
+      {
+        icon: SiLeaflet,
+        link: "https://leafletjs.com/",
+        title: "Leaflet",
+      },
+      { icon: SiDocker, link: "https://www.docker.com/", title: "Docker" },
+      {
+        icon: FaLinux,
+        link: "https://www.linux.org/",
+        title: "Linux",
+      },
+    ],
+  },
+  {
+    title: "Redborder NDR stack",
+    link: "https://www.redborder.com/",
+    tools: [
+      {
+        icon: DiRuby,
+        link: "https://www.ruby-lang.org/en/",
+        title: "Ruby",
+      },
+      {
+        icon: SiRubyonrails,
+        link: "https://rubyonrails.org/",
+        title: "Ruby on Rails",
+      },
+      {
+        icon: BiLogoPostgresql,
+        link: "https://www.postgresql.org/",
+        title: "PostgreSQL",
+      },
+      {
+        icon: SiRedis,
+        link: "https://redis.io/",
+        title: "Redis",
+      },
+      { icon: DiPython, link: "https://www.python.org/", title: "Python" },
+      { icon: BiLogoGoLang, link: "https://golang.org/", title: "Go" },
       {
         icon: SiChef,
         link: "https://www.chef.io/",
@@ -48,10 +98,22 @@ const sections = [
         link: "https://druid.apache.org/",
         title: "Apache Druid",
       },
+      {
+        icon: SiApachekafka,
+        link: "https://kafka.apache.org/",
+        title: "Apache Kafka",
+      },
+      { icon: SiDocker, link: "https://www.docker.com/", title: "Docker" },
+      {
+        icon: FaLinux,
+        link: "https://www.linux.org/",
+        title: "Linux",
+      },
     ],
   },
   {
-    title: "Frontend",
+    title: "Vivadrive stack",
+    link: "https://vivadrive.io/",
     tools: [
       {
         icon: FaReact,
@@ -59,74 +121,26 @@ const sections = [
         title: "React",
       },
       {
-        icon: SiAngular,
-        link: "https://angular.dev/",
-        title: "Angular",
-      },
-      {
-        icon: SiBlazor,
-        link: "https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor",
-        title: "Blazor",
-      },
-    ],
-  },
-  {
-    title: "Backend",
-    tools: [
-      {
-        icon: SiDotnet,
-        link: "https://dotnet.microsoft.com/en-us/apps/aspnet/apis",
-        title: "APIs with ASP.NET Core",
-      },
-      {
         icon: DiDjango,
         link: "https://www.django-rest-framework.org/",
         title: "Django Rest Framework",
       },
-      {
-        icon: SiExpress,
-        link: "https://expressjs.com/",
-        title: "Express JS",
-      },
-      {
-        icon: SiFirebase,
-        link: "https://firebase.google.com/",
-        title: "Firebase",
-      },
-    ],
-  },
-  {
-    title: "Programming languages",
-    tools: [
-      {
-        icon: TbBrandCSharp,
-        link: "https://dotnet.microsoft.com/en-us/languages/csharp",
-        title: "C#",
-      },
       { icon: DiPython, link: "https://www.python.org/", title: "Python" },
-      { icon: DiJava, link: "https://www.java.com/en/", title: "Java" },
       {
-        icon: SiTypescript,
-        link: "https://www.typescriptlang.org/",
-        title: "TypeScript",
+        icon: BiLogoPostgresql,
+        link: "https://www.postgresql.org/",
+        title: "PostgreSQL",
       },
-      {
-        icon: SiJavascript,
-        link: "https://developer.mozilla.org/en-US/docs/Web/javascript",
-        title: "JavaScript",
-      },
-    ],
-  },
-  {
-    title: "Tools",
-    tools: [
       {
         icon: SiTailwindcss,
         link: "https://tailwindcss.com/",
         title: "Tailwind CSS",
       },
-      { icon: SiDocker, link: "https://www.docker.com/", title: "Docker" },
-      { icon: SiIonic, link: "https://ionicframework.com/", title: "Ionic" },
+      {
+        icon: SiLeaflet,
+        link: "https://leafletjs.com/",
+        title: "Leaflet",
+      },
     ],
   },
 ];
@@ -158,15 +172,31 @@ const About = () => {
 
       {sections.map((section, index) => (
         <div className="technologie-cards" key={index}>
-          {section.title === "Redborder NDR stack" ? (
+          {section.title === "Indra stack" ? (
             <p>
-              <span style={{ color: "#ff5277" }}>{section.title}</span> I am
-              working with
+              <a
+                href={section.link}
+                title={`Go to ${section.title}`}
+                style={{ color: "#ff5277", textDecoration: "underline" }}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {section.title}
+              </a>{" "}
+              I am working with
             </p>
           ) : (
             <p>
-              <span style={{ color: "#ff5277" }}>{section.title}</span> I have
-              worked with
+              <a
+                href={section.link}
+                title={`Go to ${section.title}`}
+                style={{ color: "#ff5277", textDecoration: "underline" }}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {section.title}
+              </a>{" "}
+              I have worked with
             </p>
           )}
 

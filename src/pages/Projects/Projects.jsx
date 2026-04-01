@@ -5,9 +5,20 @@ import { images } from "../../constants";
 
 const experienceCards = [
   {
+    image: images.indra,
+    title:  "Software Engineer at Indra",
+    paragraph: `Software Engineer at Indra specialized in building web applications using Ruby 3.1 and Ruby on Rails 7. Technical background across the full backend development ecosystem, working with PostgreSQL databases and frontend technologies such as Stimulus, Turbo, and JavaScript.\n\nI am currently involved in the development and maintenance of internal Indra web applications, as well as web platforms for the Community of Madrid.\n\nMy role covers the entire software development lifecycle, from feature implementation to automated testing with RSpec, and deployment processes using Capistrano, Apache HTTP Server, and Unicorn environments. I use Git for version control and follow best practices.`,
+    links: [
+      {
+        title: "https://www.indragroup.com/",
+        type: "Web",
+      },
+    ],
+  },
+  {
     image: images.redborder,
     title: "Software Engineer at Redborder NDR",
-    paragraph: `Since June 2024, I have been a member of the software development team at Redborder NDR, a scalable, real-time cybersecurity platform. Redborder integrates advanced technologies such as Next-Generation Intrusion Prevention Systems (NGIPS), Network Traffic Analysis (NTA), and Security Information and Event Management (SIEM) into a unified system. Leveraging big data and AI-powered correlation engines, it provides comprehensive visibility and protection for IT infrastructures.`,
+    paragraph: `Development of real-time cybersecurity solutions, creating a web platform with Ruby, Ruby on Rails, Python, Go, and Logstash, focused on threat detection and prevention.\n\nManagement of databases and caching systems in PostgreSQL, MongoDB, Redis, Aerospike, and Memcached, ensuring high performance in the handling of critical data.\n\nAutomation of a Linux infrastructure (Rocky Linux) and deployments with Chef Server, Bash Scripting, and Jenkins, in addition to integrating Apache Druid, Kafka, and Zookeeper for advanced data processing and analysis in distributed environments.\n\nAdministration of virtualization environments with Esxi and containers with Docker, applying version control with GitLab and GitHub for CI/CD workflows.\n\nPreparation of analytical reports on network traffic, threats, and security policies, applying reverse engineering techniques, threat intelligence, whitelists, and blacklists.\n\nExperience with Amazon Web Services (AWS), with scalable storage solutions on Amazon S3 for high-volume and high-availability environments.`,
     links: [
       {
         title: "https://redborder.com/",
