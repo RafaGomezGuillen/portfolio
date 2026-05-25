@@ -66,6 +66,18 @@ const experienceCards = [
 
 const projectCards = [
   {
+    image: images.agentActivity,
+    title: "Agent Activity",
+    paragraph:
+      "Monitoring platform designed to provide a single-pane view of registered desktop machines. It can track machine status in real time, surface system metrics, review keylogs, clipboard contents, and screenshots, and execute remote commands when needed.",
+    links: [
+      {
+        title: "https://github.com/RafaGomezGuillen/agent-activity",
+        type: "GitHub",
+      },
+    ],
+  },
+  {
     image: images.whatsappAiAssistant,
     title: "WhatsApp AI Assistant",
     paragraph:

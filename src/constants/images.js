@@ -15,6 +15,7 @@ import redborder from "../assets/redborder.jpg";
 import whatsappAiAssistant from "../assets/whatsapp-ai-assistant.png";
 import happyBirthday from "../assets/happy-birthday.png";
 import indra from "../assets/logo_indra.jpg";
+import agentActivity from "../assets/agent-activity.png";
 
 const images = {
   logo,
@@ -34,6 +35,7 @@ const images = {
   whatsappAiAssistant,
   happyBirthday,
   indra,
+  agentActivity,
 };
 
 export default images;
