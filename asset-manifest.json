@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.7ddd2278.css",
-    "main.js": "/portfolio/static/js/main.e8336d66.js",
+    "main.js": "/portfolio/static/js/main.5dc318a3.js",
     "static/js/488.727ec5bd.chunk.js": "/portfolio/static/js/488.727ec5bd.chunk.js",
     "static/media/happy-birthday.png": "/portfolio/static/media/happy-birthday.86c850d62d2d9d35bfa6.png",
     "static/media/pet-generator.png": "/portfolio/static/media/pet-generator.567aab315820b14b8085.png",
@@ -9,6 +9,7 @@
     "static/media/symphobeats.png": "/portfolio/static/media/symphobeats.a1f3c3fe91ffa9101a79.png",
     "static/media/logo.png": "/portfolio/static/media/logo.2fc182ac2532ddc32043.png",
     "static/media/pdf.worker.min.mjs": "/portfolio/static/media/pdf.worker.min.c6fcf5f79c41ec2a6a32.mjs",
+    "static/media/agent-activity.png": "/portfolio/static/media/agent-activity.65a076837b7473070331.png",
     "static/media/whatsapp-ai-assistant.png": "/portfolio/static/media/whatsapp-ai-assistant.73324a214075887bf25c.png",
     "static/media/home-background.jpg": "/portfolio/static/media/home-background.05a4d26d014aee4e84a9.jpg",
     "static/media/CV.pdf": "/portfolio/static/media/CV.00834921b052a28a673e.pdf",
@@ -27,11 +28,11 @@
     "static/media/redborder.jpg": "/portfolio/static/media/redborder.37814930b27d5f162f03.jpg",
     "index.html": "/portfolio/index.html",
     "main.7ddd2278.css.map": "/portfolio/static/css/main.7ddd2278.css.map",
-    "main.e8336d66.js.map": "/portfolio/static/js/main.e8336d66.js.map",
+    "main.5dc318a3.js.map": "/portfolio/static/js/main.5dc318a3.js.map",
     "488.727ec5bd.chunk.js.map": "/portfolio/static/js/488.727ec5bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7ddd2278.css",
-    "static/js/main.e8336d66.js"
+    "static/js/main.5dc318a3.js"
   ]
 }
