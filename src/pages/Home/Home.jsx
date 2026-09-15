@@ -72,7 +72,7 @@ const Home = () => {
               <li>
                 <a
                   title="Go to Rafael Gómez LinkedIn profile page"
-                  href="https://www.linkedin.com/in/rafael-g%C3%B3mez-guill%C3%A9n/?locale=en_US"
+                  href="https://www.linkedin.com/in/rafael-gomez-guillen/"
                   target="_blank"
                   rel="noreferrer"
                 >
