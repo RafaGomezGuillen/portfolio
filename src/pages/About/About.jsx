@@ -1,7 +1,12 @@
 import React from "react";
 import "./About.css";
 import { images } from "../../constants";
-import { FaReact, FaLinux, FaBootstrap } from "react-icons/fa";
+import {
+  FaReact,
+  FaLinux,
+  FaJava,
+  FaJenkins,
+} from "react-icons/fa";
 import { SiLogstash, SiApachedruid, SiDocker, SiRedis } from "react-icons/si";
 import { DiDjango, DiPython, DiRuby } from "react-icons/di";
 import {
@@ -10,6 +15,7 @@ import {
   SiChef,
   SiApachekafka,
   SiLeaflet,
+  SiSpring,
 } from "react-icons/si";
 import { BiLogoPostgresql, BiLogoGoLang } from "react-icons/bi";
 import SkillsetCard from "../../components/Cards/SkillsetCard/SkillsetCard";
@@ -30,9 +36,14 @@ const sections = [
         title: "Ruby on Rails",
       },
       {
-        icon: FaBootstrap,
-        link: "https://getbootstrap.com/",
-        title: "Bootstrap",
+        icon: FaJava,
+        link: "https://www.java.com/",
+        title: "Java",
+      },
+      {
+        icon: SiSpring,
+        link: "https://spring.io/",
+        title: "Spring",
       },
       {
         icon: BiLogoPostgresql,
@@ -44,16 +55,21 @@ const sections = [
         link: "https://redis.io/",
         title: "Redis",
       },
-      {
-        icon: SiLeaflet,
-        link: "https://leafletjs.com/",
-        title: "Leaflet",
-      },
       { icon: SiDocker, link: "https://www.docker.com/", title: "Docker" },
       {
         icon: FaLinux,
         link: "https://www.linux.org/",
         title: "Linux",
+      },
+      {
+        icon: FaJenkins,
+        link: "https://www.jenkins.io/",
+        title: "Jenkins",
+      },
+      {
+        icon: SiApachekafka,
+        link: "https://www.confluent.io/es-es/",
+        title: "Confluent",
       },
     ],
   },

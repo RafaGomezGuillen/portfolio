@@ -40,28 +40,34 @@
 }
 
 @keyframes logos {
-  0%, 16.66% {
+  0%,
+  16.66% {
     background-image: url("../../../assets/ruby-logo.png");
   }
 
-  16.67%, 33.33% {
+  16.67%,
+  33.33% {
     background-image: url("../../../assets/rails-logo.png");
   }
-  
-  33.34%, 50% {
-    background-image: url("../../../assets/postgresql-logo.png");
+
+  33.34%,
+  50% {
+    background-image: url("../../../assets/java-Logo.png");
   }
 
-  50.01%, 66.66% {
-    background-image: url("../../../assets/rspec-logo.png");
+  50.01%,
+  66.66% {
+    background-image: url("../../../assets/spring-boot-logo.png");
   }
 
-  66.67%, 83.33% {
+  66.67%,
+  83.33% {
     background-image: url("../../../assets/linux-logo.webp");
   }
 
-  83.34%, 100% {
-    background-image: url("../../../assets/docker-logo.png");
+  83.34%,
+  100% {
+    background-image: url("../../../assets/postgresql-logo.png");
   }
 }
 
