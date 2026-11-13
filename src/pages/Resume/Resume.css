@@ -1,68 +1,58 @@
 .resume h1 {
-  text-align: center;
-  color: var(--color-primary);
-  font-size: 50px;
+  font-size: clamp(1.75rem, 1.3rem + 2vw, 2.5rem);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
 }
 
 .resume-button {
   display: flex;
-  justify-content: center;
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 .resume-button button {
-  background: transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 48px;
+  padding: 0 24px;
+  font: inherit;
+  font-weight: 600;
   color: var(--color-text);
+  background: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  border-radius: 999px;
   cursor: pointer;
-  border: 2.5px solid var(--color-primary);
-  border-radius: 10rem;
-  width: 200px;
-  height: 50px;
-  text-transform: uppercase;
-  background-image: -webkit-linear-gradient(
-    45deg,
-    var(--color-primary) 50%,
-    transparent 50%
-  );
-  background-image: linear-gradient(
-    45deg,
-    var(--color-primary) 50%,
-    transparent 50%
-  );
-  background-position: 100%;
-  background-size: 400%;
-  -webkit-transition: background 0.4s ease-in-out;
-  transition: background 0.4s ease-in-out;
+  transition: background-color var(--transition-fast), transform var(--transition-fast),
+    box-shadow var(--transition-fast);
 }
 
 .resume-button button:hover {
-  background-position: 0;
-  color: var(--color-text);
+  background: var(--color-primary-offset);
+  box-shadow: 0 8px 24px rgba(var(--color-primary-rgb), 0.3);
 }
 
-.resume-button button span {
-  position: relative;
-  bottom: 4px;
+.resume-button button:active {
+  transform: scale(0.97);
 }
 
 .resume-container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  margin-left: calc(var(--bs-gutter-x) * -0.5);
-  margin-right: calc(var(--bs-gutter-x) * -0.5);
-  margin-top: calc(var(--bs-gutter-y) * -1);
-  padding-bottom: 50px;
-  padding-top: 50px;
+  padding: 32px 0 0;
+}
+
+/* Gives the fixed-scale PDF page room on narrow screens */
+@media screen and (max-width: 599px) {
+  .resume-container {
+    margin-inline: calc(-1 * var(--page-gutter) + 8px);
+  }
 }
 
 .resume-pdf {
   height: 100%;
   overflow-y: hidden;
-}
-
-@media screen and (max-width: 650px) { 
-  .resume h1 {
-    font-size: 38px;
-  }
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-card);
 }

@@ -1,22 +1,16 @@
 .App {
-  margin: auto;
-  width: 90%;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--page-gutter);
 }
 
-@media screen and (max-width: 770px) {
-  .App {
-    margin: 0;
-    width: 100%;
-  }
-
-  .content {
-    padding: 20px 80px;
-  }
+.content {
+  padding-top: 24px;
 }
 
-
-@media screen and (max-width: 500px) { 
+@media screen and (min-width: 769px) {
   .content {
-    padding: 20px 30px;
+    padding-top: 40px;
   }
 }

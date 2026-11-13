@@ -1,36 +1,53 @@
 .skillset-card-container {
-  border: 1.7px solid rgba(67, 169, 163, 1);
-  border-radius: 5px;
-  padding: 15px;
-  box-shadow: 2px 2.5px 2px 1.5px rgba(67, 169, 163, 0.5);
-  margin-top: 25px;
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-height: 112px;
+  padding: 20px 12px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  transition: transform var(--transition-fast), border-color var(--transition-fast),
+    background-color var(--transition-fast);
+}
+
+@media (hover: hover) {
+  .skillset-card-container:hover {
+    background: var(--color-surface-hover);
+    border-color: rgba(var(--color-secondary-rgb), 0.6);
+    transform: translateY(-3px);
+  }
+}
+
+.skillset-card-container:active {
+  transform: scale(0.97);
+}
+
+.skillset-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  color: var(--color-text);
+}
+
+.skillset-card-title p {
+  margin: 0;
+  font-size: 0.85rem;
+  font-weight: 500;
+  line-height: 1.3;
+  text-align: center;
+  color: var(--color-text-soft);
+}
+
+@media screen and (min-width: 600px) {
   .skillset-card {
-    display: flex;
-    font-size: 90px;
-    justify-content: center;
-    align-items: center;
-    color: var(--color-text);
-    transition: all 0.4s ease 0s;
+    font-size: 48px;
   }
 
-  .skillset-card:hover {
-    transform: scale(1.05);
-  }
-
-  @media screen and (max-width: 600px) {
-    .skillset-card {
-      padding: 15px;
-    }
-  }
-
-  .skillset-card-title {
-    p {
-      font-size: 20px;
-      margin: 0;
-      text-align: center;
-      color: var(--color-text);
-      margin-top: 15px;
-    }
+  .skillset-card-title p {
+    font-size: 0.9rem;
   }
 }

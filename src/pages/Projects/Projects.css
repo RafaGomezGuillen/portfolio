@@ -1,171 +1,55 @@
 .project {
   width: 100%;
-  padding: 0 20px;
 }
 
-.project h1,
-.project h2 {
-  font-size: 2.5rem;
-  font-weight: 600;
-  text-align: center;
-  margin-bottom: 10px;
-  letter-spacing: -0.5px;
-  animation: fadeInDown 0.6s ease;
+.project > h1,
+.project > h2 {
+  font-size: clamp(1.75rem, 1.3rem + 2vw, 2.5rem);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
 }
 
-.project h2 {
-  font-size: 2.2rem;
-  margin-top: 60px;
+/* Overrides the inline margin set in Projects.jsx */
+.project > h2 {
+  margin-top: var(--section-gap) !important;
 }
 
-.project p a {
+.project > p {
+  margin-top: 8px;
+  color: var(--color-text-offset);
+}
+
+.project > p a {
   color: var(--color-secondary);
-  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  text-decoration: none;
   font-weight: 500;
-  position: relative;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+  transition: color var(--transition-fast);
 }
 
-.project p a::after {
-  content: '';
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background: var(--color-secondary);
-  transform: scaleX(0);
-  transform-origin: right;
-  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-
-.project a:hover::after {
-  transform: scaleX(1);
-  transform-origin: left;
-}
-
-.project a:hover {
-  color: rgba(255, 255, 255, 0.9);
-}
-
-.project p {
-  margin-top: 15px;
-  text-align: center;
-  color: rgba(255, 255, 255, 0.75);
-  font-size: 1.05rem;
-  line-height: 1.6;
-  margin-bottom: 40px;
-  animation: fadeInUp 0.6s ease 0.2s both;
+.project > p a:hover {
+  color: var(--color-text);
 }
 
 .project-cards {
-  margin-top: 50px;
-  margin-bottom: 50px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 28px;
-  animation: fadeInUp 0.8s ease 0.3s both;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  margin-top: 28px;
 }
 
-@media screen and (max-width: 1400px) {
-  .project h1,
-  .project h2 {
-    font-size: 2.2rem;
-  }
-
-  .project-cards {
-    gap: 25px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .project h1,
-  .project h2 {
-    font-size: 2rem;
-  }
-
-  .project p {
-    font-size: 1rem;
-  }
-
+@media screen and (min-width: 640px) {
   .project-cards {
     grid-template-columns: repeat(2, 1fr);
-    gap: 22px;
+    gap: 24px;
   }
 }
 
-@media screen and (max-width: 900px) {
-  .project h1,
-  .project h2 {
-    font-size: 1.8rem;
-  }
-
-  .project-cards {
-    gap: 20px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .project {
-    padding: 0 15px;
-  }
-
-  .project h1,
-  .project h2 {
-    font-size: 1.6rem;
-  }
-
-  .project p {
-    font-size: 0.95rem;
-  }
-
-  .project-cards {
-    grid-template-columns: 1fr;
-    gap: 18px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .project {
-    padding: 0 12px;
-  }
-
-  .project h1,
-  .project h2 {
-    font-size: 1.4rem;
-    margin-bottom: 8px;
-  }
-
-  .project p {
-    font-size: 0.9rem;
-    margin-bottom: 30px;
-  }
-
-  .project-cards {
-    gap: 16px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-}
-
-@keyframes fadeInDown {
-  from {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
+/* Experience (first grid) stays 2-up, personal projects go 3-up on desktop */
+@media screen and (min-width: 1024px) {
+  .project-cards:not(:first-of-type) {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
