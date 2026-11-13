@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7ddd2278.css",
-    "main.js": "/portfolio/static/js/main.e733e70e.js",
+    "main.css": "/portfolio/static/css/main.ccc8964c.css",
+    "main.js": "/portfolio/static/js/main.f5c56301.js",
     "static/js/488.727ec5bd.chunk.js": "/portfolio/static/js/488.727ec5bd.chunk.js",
     "static/media/happy-birthday.png": "/portfolio/static/media/happy-birthday.86c850d62d2d9d35bfa6.png",
     "static/media/pet-generator.png": "/portfolio/static/media/pet-generator.567aab315820b14b8085.png",
@@ -12,27 +12,27 @@
     "static/media/agent-activity.png": "/portfolio/static/media/agent-activity.65a076837b7473070331.png",
     "static/media/whatsapp-ai-assistant.png": "/portfolio/static/media/whatsapp-ai-assistant.73324a214075887bf25c.png",
     "static/media/home-background.jpg": "/portfolio/static/media/home-background.05a4d26d014aee4e84a9.jpg",
-    "static/media/CV.pdf": "/portfolio/static/media/CV.00834921b052a28a673e.pdf",
-    "static/media/docker-logo.png": "/portfolio/static/media/docker-logo.7c458e84c4fe68d40608.png",
+    "static/media/CV.pdf": "/portfolio/static/media/CV.b834aff1e546a1893c69.pdf",
     "static/media/formula-one.png": "/portfolio/static/media/formula-one.4de842e5f098e3dd70f0.png",
     "static/media/ruby-logo.png": "/portfolio/static/media/ruby-logo.2dadaf85f2f2ec3bc660.png",
     "static/media/python-logo.png": "/portfolio/static/media/python-logo.52d7bb207f9868b90e39.png",
     "static/media/canarias-skills-logo.jpg": "/portfolio/static/media/canarias-skills-logo.4946f9b75bdc21c3fefd.jpg",
     "static/media/cesar-manrique-logo.jpg": "/portfolio/static/media/cesar-manrique-logo.38690beca37a751f777e.jpg",
     "static/media/learn-how-to-code.png": "/portfolio/static/media/learn-how-to-code.cb8047233b60e30edb35.png",
+    "static/media/java-Logo.png": "/portfolio/static/media/java-Logo.6c1a3b5f7e2d535bff5b.png",
     "static/media/logo_indra.jpg": "/portfolio/static/media/logo_indra.7a938feca2c5c6f0d1e1.jpg",
     "static/media/smooth-match-3.png": "/portfolio/static/media/smooth-match-3.0677e73167f6a0bb178e.png",
     "static/media/postgresql-logo.png": "/portfolio/static/media/postgresql-logo.6a0753e482c35a76d61a.png",
-    "static/media/rspec-logo.png": "/portfolio/static/media/rspec-logo.fac606b2010d47f9578b.png",
     "static/media/linux-logo.webp": "/portfolio/static/media/linux-logo.55bd3b8d3529be7174e3.webp",
     "static/media/redborder.jpg": "/portfolio/static/media/redborder.37814930b27d5f162f03.jpg",
+    "static/media/spring-boot-logo.png": "/portfolio/static/media/spring-boot-logo.7f34ee5e9541865ced65.png",
     "index.html": "/portfolio/index.html",
-    "main.7ddd2278.css.map": "/portfolio/static/css/main.7ddd2278.css.map",
-    "main.e733e70e.js.map": "/portfolio/static/js/main.e733e70e.js.map",
+    "main.ccc8964c.css.map": "/portfolio/static/css/main.ccc8964c.css.map",
+    "main.f5c56301.js.map": "/portfolio/static/js/main.f5c56301.js.map",
     "488.727ec5bd.chunk.js.map": "/portfolio/static/js/488.727ec5bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ddd2278.css",
-    "static/js/main.e733e70e.js"
+    "static/css/main.ccc8964c.css",
+    "static/js/main.f5c56301.js"
   ]
 }
